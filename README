@@ -1,0 +1,4 @@
+31.12.2010
+* An attempt to upgrade FancyUpload2 to work with mootools 1.3 in nocompat mode
+* Attention: You have to fix this bug in mootools-1.3.0-core if you are using nocompat mode (https://mootools.lighthouseapp.com/projects/2706/tickets/1039-swiff)
+* Attention: Js Error in IE, see http://groups.google.com/group/mootools-users/browse_thread/thread/5b328dd27e44a2b0 This should be ActionScript releated, see http://digitarald.de/forums/topic.php?id=1826
