@@ -1,0 +1,5 @@
+#!/bin/bash
+
+GREPFOR='\$chk|\$A|\$splat|\$clear|\$defined|\$each|\$empty|\$extend|\$merge|\$mixin|\$lambda|\$random|\$time|\$type|\$unlink|\$arguments|Native|Array\.type|Browser|\$exec|\$pick|extend|\$try|\.run|\.create|\.bindWithEvent|\.bind|\.injectInside|\.injectBefore|\.injectAfter|\.injectBottom|\.injectTop|\.grabTop|\.hasChild|\.Pseudo|MooTools\.lang'
+
+egrep $GREPFOR $1
